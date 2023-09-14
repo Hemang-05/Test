@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://assets.ubuntu.com/v1/vanilla-framework-version-4.3.0.min.css" />    <style>
+        
+        .container {
+            max-width: 800px; /* Decreased width of the container */
+            margin-left: 20% ; /* Center align the container horizontally */
+            padding: 20px;
+        }
+
+        /* Custom CSS for blog post cards */
+        .vw-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns */
+            grid-gap: 25px; /* Reduced gap between cards */
+        }
+
+        .vw-card {
+            width: 300px; 
+            height: 380px;
+            display: flex;
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+            padding: 20px;
+            border-top: 3px solid rgb(168, 124, 160);
+            border-radius: 1px;
+            text-align: left;
+            flex-direction: column;
+            box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+             
+            
+        } 
+    </style>
+    <title>Blog Posts</title>
+</head>
+<body>
+    <div class="container">
+        <div class="vw-container "  id="blog-container">
+          
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
